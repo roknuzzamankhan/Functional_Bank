@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style/index.css"> <!-- >>>> Style CSS Link <<<< -->
+  <title>Functional Bank</title>
+</head>
+
+<body>
+  <!-- ============================================================ -->
+  <!-- ===============|| Header Section : Start ||================= -->
+  <!-- ============================================================ -->
+  <header>
+    <div class="container">
+      <h1><span>One</span>&nbsp; Bank</h1>
+    </div>
+  </header>
+  <!-- ============================================================ -->
+  <!-- ===============|| Header Section : End ||=================== -->
+  <!-- ============================================================ -->
+
+
+  <!-- ============================================================ -->
+  <!-- ===============|| Main Section : Start ||=================== -->
+  <!-- ============================================================ -->
+  <main>
+    <div class="container">
+      <div id="money_show">
+        <div id="deposit" class="box box-1">
+          <h2>Deposit</h2>
+          <h3>$<span id="displayDeposit">0</span></h3>
+        </div>
+        <div id="withdraw" class="box box-2">
+          <h2>Withdraw</h2>
+          <h3>$<span id="displayWithdraw">0</span></h3>
+        </div>
+        <div id="balance" class="box box-3">
+          <h2>Balance</h2>
+          <h3>$<span id="displayBalance">0</span></h3>
+        </div>
+      </div>
+
+      <div id="money_input">
+        <div class="box box-4">
+          <h2>Deposit Amount</h2>
+          <input type="text" id="depositAmountInput" class="inputField"><br>
+          <button id="depositButton">Deposit</button>
+        </div>
+        <div class="box box-5">
+          <h2>Withdraw Amount</h2>
+          <input type="text" id="withdrawAmountInput" class="inputField"><br>
+          <button id="withdrawButton">Withdraw</button>
+        </div>
+      </div>
+    </div>
+  </main>
+  <!-- ============================================================ -->
+  <!-- ===============|| Main Section : End ||===================== -->
+  <!-- ============================================================ -->
+
+
+  <!-- ===============|| Script File ||===================== -->
+  <script src="js/index.js"></script>
+</body>
+
+</html>

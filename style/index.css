@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Bebas Neue", cursive;
+}
+
+body {
+  height: 100vh;
+  background: linear-gradient(180deg, #7dedff, #fff, #7c83fd);
+  background-repeat: no-repeat;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  color: white;
+}
+
+.container h1 {
+  padding: 10% 0 0 0;
+  color: black;
+  font-size: 100px;
+}
+
+.container h1 span {
+  color: rgb(255, 13, 13);
+  font-style: italic;
+}
+
+h3 {
+  font-size: 45px;
+}
+
+h3 span {
+  font-size: 50px;
+}
+
+/* All box sections */
+#money_show {
+  display: grid;
+  grid-template-columns: repeat(3, 31%);
+  justify-content: space-between;
+  margin: 0 0 10px 0;
+}
+
+#money_input {
+  display: grid;
+  grid-template-columns: repeat(2, 48%);
+  justify-content: space-between;
+}
+
+.box {
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  color: black;
+  font-size: 30px;
+  padding: 20px;
+}
+
+.box-1 {
+  background-color: #7c83fd;
+}
+
+.box-2 {
+  background-color: #96baff;
+}
+
+.box-3 {
+  background-color: #7dedff;
+}
+
+.box-4 {
+  background-color: #9ab3f5;
+}
+
+.box-5 {
+  background-color: #7c83fd;
+}
+
+/* All input Styles */
+.inputField {
+  width: 80%;
+  height: 50px;
+  background-color: transparent;
+  border: 5px solid white;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  outline: none;
+  font-size: 25px;
+  padding: 10px;
+}
+
+/* All buttons Styles */
+button {
+  color: white;
+  background-color: #120078;
+  font-size: 25px;
+  margin: 10px 0 0 0;
+  padding: 10px 50px;
+  border: none;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  transition: 0.5s ease;
+  -webkit-transition: 0.5s ease;
+  -moz-transition: 0.5s ease;
+  -ms-transition: 0.5s ease;
+  -o-transition: 0.5s ease;
+}
+
+button:hover {
+  color: white;
+  background-color: #2600ff;
+}
+
+button:active {
+  background-color: rgb(0, 87, 78);
+}
